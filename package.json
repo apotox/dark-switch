@@ -2,12 +2,12 @@
   "name": "dark-switch",
   "version": "1.0.0",
   "description": "custom style for checkbox to switch between Dark/Light theme",
-  "main": "./dist/main.js",
+  "main": "./src/DarkSwitch.js",
   "scripts": {
     "build": "webpack --mode production"
   },
   "author": "saphidev@gmail.com",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.8.3",
     "@babel/preset-env": "^7.8.3",
