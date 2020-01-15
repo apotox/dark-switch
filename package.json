@@ -1,8 +1,8 @@
 {
   "name": "dark-switch",
-  "version": "1.0.0",
+  "version": "1.0.6",
   "description": "custom style for checkbox to switch between Dark/Light theme",
-  "main": "./src/DarkSwitch.js",
+  "main": "./lib/DarkSwitch.js",
   "scripts": {
     "build": "webpack --mode production"
   },
@@ -16,6 +16,7 @@
     "css-loader": "^3.4.2",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
+    "style-loader": "^1.1.2",
     "webpack": "^4.41.5",
     "webpack-cli": "^3.3.10"
   },

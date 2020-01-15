@@ -3,13 +3,15 @@ import "./style.css"
 
 
 
-const DarkSwitch = ({}) => {
-    return <>
-        <span class="switch">
-            <input type="checkbox" />
-            <span class="handle"></span>
-        </span>
-    </>
+const DarkSwitch = ({classSwitch,classHandle,onChange}) => {
+
+    classSwitch  = classSwitch || "switch";
+    classHandle = classHandle || "handle"
+
+    return <span className={classSwitch}>
+            <input type="checkbox" onChange={onChange}/>
+            <span className={classHandle}></span>
+    </span>
 }
 
 
