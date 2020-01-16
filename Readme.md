@@ -4,7 +4,7 @@ custom style for checkbox to switch between Dark/Light theme
 
 
 <p align="center"> 
-    <img src="demo/capture.git">
+    <img src="demo/capture.gif">
 </p>
 
 ### Installation
